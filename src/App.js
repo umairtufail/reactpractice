@@ -8,7 +8,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p2>this is my workplace and directory</p2>
+        <h1 font color="black">This is my bootcamp second assignment</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
