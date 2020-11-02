@@ -20,7 +20,7 @@ jobs:
         uses: Borales/actions-yarn@v2.3.0
         with:
           # Yarn command
-          cmd: yarn install
+          cmd: npm install
       - name: deploying on surge
         run: surge ./build https://practice_2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
         
