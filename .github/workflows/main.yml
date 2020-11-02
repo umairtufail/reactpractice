@@ -21,8 +21,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build https://practice_2.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
-      
-     
-     
-               
+        run: surge ./build glossy-farmer.surge.sh --token ${{ secrets.SURGE_TOKEN }}
