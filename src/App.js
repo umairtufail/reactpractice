@@ -9,7 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p2>this is my workplace</p2>
+        <p2>this is my workplace and directory</p2>
         <a
           className="App-link"
           href="https://reactjs.org"
