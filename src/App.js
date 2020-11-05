@@ -1,23 +1,16 @@
 import React from 'react';
 import './App.css';
+import Food from './food.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>This is my bootcamp second assignment</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Food dishName='chicken pizza'></Food>
+      <hr></hr>
+       <Food dishName='chicken pizza'></Food>
+       <hr></hr>
+        <Food dishName='chicken pizza'></Food>
+      
     </div>
   );
 }
